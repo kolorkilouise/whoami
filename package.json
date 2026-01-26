@@ -4,12 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build:en && npm run build:pt && npm run build:copy-root",
-    "build:en": "ng build --configuration=production,en-US --base-href /whoami/",
-    "build:pt": "ng build --configuration=production,pt --base-href /whoami/pt-BR/ --delete-output-path=false",
-    "build:copy-root": "cp -r dist/whoami/browser/en-US/* dist/whoami/browser/ && mv dist/whoami/browser/pt dist/whoami/browser/pt-BR",
+    "build": "ng build && npm run build:copy-root",
+    "build:copy-root": "cp -r dist/whoami/browser/en-US/* dist/whoami/browser/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "i18n:extract": "ng extract-i18n --output-path src/locales",
     "prepare": "husky"
   },
   "prettier": {
