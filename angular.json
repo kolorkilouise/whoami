@@ -61,8 +61,8 @@
             "es": {
               "localize": ["es"]
             },
-            "en-US": {
-              "localize": ["en-US"]
+            "en": {
+              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -82,8 +82,8 @@
             "es": {
               "buildTarget": "whoami:build:development,es"
             },
-            "en-US": {
-              "buildTarget": "whoami:build:development,en-US"
+            "en": {
+              "buildTarget": "whoami:build:development,en"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "en",
         "locales": {
           "pt": "src/locales/messages.pt.xlf",
           "es": "src/locales/messages.es.xlf"

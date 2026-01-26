@@ -11,10 +11,10 @@
       "url": "http://localhost:4200/"
     },
     {
-      "name": "ng serve (en-US)",
+      "name": "ng serve (en)",
       "type": "chrome",
       "request": "launch",
-      "preLaunchTask": "npm: start:en-US",
+      "preLaunchTask": "npm: start:en",
       "postDebugTask": "terminate: 4201",
       "url": "http://localhost:4201/"
     },

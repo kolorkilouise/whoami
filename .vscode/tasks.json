@@ -41,8 +41,8 @@
     },
     {
       "type": "shell",
-      "label": "npm: start:en-US",
-      "command": "ng serve --configuration=en-US --port 4201",
+      "label": "npm: start:en",
+      "command": "ng serve --configuration=en --port 4201",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
