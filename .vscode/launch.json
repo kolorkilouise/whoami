@@ -3,10 +3,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ng serve (pt)",
+      "name": "ng serve (pt-BR)",
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start:pt",
+      "postDebugTask": "terminate: 4200",
       "url": "http://localhost:4200/"
     },
     {
@@ -14,6 +15,7 @@
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start:en-US",
+      "postDebugTask": "terminate: 4201",
       "url": "http://localhost:4201/"
     },
     {

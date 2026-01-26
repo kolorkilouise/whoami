@@ -75,6 +75,24 @@
           }
         }
       }
+    },
+    {
+      "label": "terminate: 4200",
+      "type": "shell",
+      "command": "fuser -k 4200/tcp || true",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "terminate: 4201",
+      "type": "shell",
+      "command": "fuser -k 4201/tcp || true",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
     }
   ]
 }
