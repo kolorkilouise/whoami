@@ -1,12 +1,12 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './components/header/header.component';
-import { SummaryComponent } from './components/summary/summary.component';
-import { ExperienceComponent } from './components/experience/experience.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { ProjectsComponent } from './components/projects/projects.component';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { EducationComponent } from './components/education/education.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SummaryComponent } from './components/summary/summary.component';
 
 @Component({
   selector: 'app-whoami',
@@ -18,7 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
     SkillsComponent,
     ProjectsComponent,
     EducationComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './whoami.page.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
