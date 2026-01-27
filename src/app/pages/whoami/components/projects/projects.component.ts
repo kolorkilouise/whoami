@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
-import { NgIcon, provideIcons } from '@ng-icons/core';
 import {
-  bootstrapLightningCharge,
-  bootstrapEmojiSmile,
+  bootstrapCloudCheck,
   bootstrapCpu,
+  bootstrapEmojiSmile,
+  bootstrapFileEarmarkText,
+  bootstrapGraphUpArrow,
+  bootstrapLightningCharge,
+  bootstrapShieldLock,
 } from '@ng-icons/bootstrap-icons';
+import { NgIcon, provideIcons } from '@ng-icons/core';
 
 @Component({
   selector: 'app-projects',
@@ -16,9 +20,11 @@ import {
       bootstrapLightningCharge,
       bootstrapEmojiSmile,
       bootstrapCpu,
+      bootstrapCloudCheck,
+      bootstrapShieldLock,
+      bootstrapFileEarmarkText,
+      bootstrapGraphUpArrow,
     }),
   ],
 })
-export class ProjectsComponent {
-
-}
+export class ProjectsComponent {}
