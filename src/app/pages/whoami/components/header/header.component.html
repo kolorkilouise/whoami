@@ -1,38 +1,64 @@
 <header class="relative pt-20 pb-12 px-6 text-center overflow-hidden">
   <!-- Background Glow -->
-  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-indigo-600/20 blur-[100px] rounded-full -z-10"></div>
+  <div
+    class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-indigo-600/20 blur-[100px] rounded-full -z-10"
+  ></div>
+
+  <!-- Language Selector -->
+  <div class="absolute top-6 right-6 z-50">
+    <app-language-selector></app-language-selector>
+  </div>
 
   <div class="max-w-4xl mx-auto space-y-6">
     <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-white">
-      Vinícius <span class="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400">Nunes Martins</span>
+      Vinícius
+      <span class="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400"
+        >Nunes Martins</span
+      >
     </h1>
-    
+
     <p class="text-xl md:text-2xl text-slate-400 font-light max-w-2xl mx-auto" i18n>
       DevSecOps Engineer | Information Security Committee Member | Backend Developer
     </p>
-    
-    <address class="flex flex-wrap justify-center items-center gap-4 text-sm md:text-base text-slate-400 not-italic">
+
+    <address
+      class="flex flex-wrap justify-center items-center gap-4 text-sm md:text-base text-slate-400 not-italic"
+    >
       <div class="flex items-center gap-2">
         <ng-icon name="bootstrapGeoAlt" class="text-indigo-400 text-base"></ng-icon>
         <span i18n>São Paulo - SP</span>
       </div>
       <div class="hidden md:block text-slate-700">•</div>
-      <a href="mailto:nunesmartinsvinicius@gmail.com" class="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+      <a
+        href="mailto:nunesmartinsvinicius@gmail.com"
+        class="flex items-center gap-2 hover:text-indigo-400 transition-colors"
+      >
         <ng-icon name="bootstrapEnvelope" class="text-indigo-400 text-base"></ng-icon>
         <span>nunesmartinsvinicius@gmail.com</span>
       </a>
       <div class="hidden md:block text-slate-700">•</div>
-      <a href="tel:+5567992253525" class="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+      <a
+        href="tel:+5567992253525"
+        class="flex items-center gap-2 hover:text-indigo-400 transition-colors"
+      >
         <ng-icon name="bootstrapTelephone" class="text-indigo-400 text-base"></ng-icon>
         <span>(11) 9 8776-9651</span>
       </a>
     </address>
 
     <div class="flex justify-center gap-4 pt-4">
-      <a href="https://www.linkedin.com/in/viniciusnunesmartins" target="_blank" class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50">
+      <a
+        href="https://www.linkedin.com/in/viniciusnunesmartins"
+        target="_blank"
+        class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50"
+      >
         <ng-icon name="bootstrapLinkedin" class="text-xl"></ng-icon>
       </a>
-      <a href="https://github.com/nmvinicius" target="_blank" class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50">
+      <a
+        href="https://github.com/nmvinicius"
+        target="_blank"
+        class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50"
+      >
         <ng-icon name="bootstrapGithub" class="text-xl"></ng-icon>
       </a>
     </div>

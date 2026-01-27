@@ -1,16 +1,21 @@
-import { Component } from '@angular/core';
-import { NgIcon, provideIcons } from '@ng-icons/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {
-  bootstrapGeoAlt,
   bootstrapEnvelope,
-  bootstrapTelephone,
-  bootstrapLinkedin,
+  bootstrapGeoAlt,
   bootstrapGithub,
+  bootstrapGlobe,
+  bootstrapLinkedin,
+  bootstrapTelephone,
 } from '@ng-icons/bootstrap-icons';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+
+import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 
 @Component({
   selector: 'app-header',
-  imports: [NgIcon],
+  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [NgIcon, LanguageSelectorComponent],
   templateUrl: './header.component.html',
   host: { class: 'block' },
   viewProviders: [
@@ -20,9 +25,8 @@ import {
       bootstrapTelephone,
       bootstrapLinkedin,
       bootstrapGithub,
+      bootstrapGlobe,
     }),
   ],
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}
