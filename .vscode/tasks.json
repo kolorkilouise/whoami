@@ -21,9 +21,8 @@
       }
     },
     {
-      "type": "shell",
-      "label": "npm: start:pt",
-      "command": "ng serve --configuration=pt",
+      "type": "npm",
+      "script": "start:pt",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
@@ -40,9 +39,8 @@
       }
     },
     {
-      "type": "shell",
-      "label": "npm: start:en",
-      "command": "ng serve --configuration=en --port 4201",
+      "type": "npm",
+      "script": "start:en",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",

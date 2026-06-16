@@ -1,97 +1,64 @@
 <section>
   <h2 class="text-2xl font-semibold text-white mb-6 flex items-center gap-3">
     <span class="w-8 h-1 bg-indigo-500 rounded-full"></span>
-    <span i18n>Featured Projects</span>
+    <span i18n>Projetos em Destaque</span>
   </h2>
 
+  <!-- EDIT AQUI: altere icone, titulo e descricao dos projetos abaixo -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!--  🎨  PROJETO 1  -->
     <article
       class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
     >
       <div
         class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
       >
-        <ng-icon name="bootstrapLightningCharge" class="text-indigo-400 text-2xl"></ng-icon>
+        <!-- EDIT: escolha um ícone da lista acima -->
+        <ng-icon name="bootstrapPalette2" class="text-indigo-400 text-2xl"></ng-icon>
       </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Energy Calculation Engine</h3>
+      <!-- EDIT: nome do projeto -->
+      <h3 class="text-lg font-semibold text-white mb-2" i18n>Nome do Projeto</h3>
+      <!-- EDIT: descrição do projeto -->
       <p class="text-slate-400 text-sm" i18n>
-        Simulation system for the free energy market, processing large volumes of data.
-      </p>
-    </article>
-    <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
-    >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para nuvem/infraestrutura -->
-        <ng-icon name="bootstrapCloudCheck" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>
-        Multi-Cloud Kubernetes Architecture
-      </h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Orchestration of EKS and OKE clusters using Terraform and Karmada for high availability.
-      </p>
-    </article>
-    <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
-    >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <ng-icon name="bootstrapCpu" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Custom Operating System</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Academic project focused on understanding operating system and kernel fundamentals.
+        Descrição breve do projeto. Fale sobre o objetivo, ferramentas utilizadas e resultados.
       </p>
     </article>
 
+    <!--  🎨  PROJETO 2  -->
     <article
       class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
     >
       <div
         class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
       >
-        <!-- Ícone sugerido para segurança -->
-        <ng-icon name="bootstrapShieldLock" class="text-indigo-400 text-2xl"></ng-icon>
+        <ng-icon name="bootstrapBrush" class="text-indigo-400 text-2xl"></ng-icon>
       </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Security Pipeline Automation</h3>
+      <h3 class="text-lg font-semibold text-white mb-2" i18n>Outro Projeto</h3>
       <p class="text-slate-400 text-sm" i18n>
-        Automated SAST/DAST pipelines and centralized authentication ensuring GDPR compliance.
+        Descrição breve do projeto. Destaque o impacto visual, as técnicas usadas e o resultado
+        final.
       </p>
     </article>
 
+    <!--  🎨  PROJETO 3  -->
     <article
       class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
     >
       <div
         class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
       >
-        <!-- Ícone sugerido para documentos/dados -->
-        <ng-icon name="bootstrapFileEarmarkText" class="text-indigo-400 text-2xl"></ng-icon>
+        <ng-icon name="bootstrapImages" class="text-indigo-400 text-2xl"></ng-icon>
       </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Automated OCR Data Pipeline</h3>
+      <h3 class="text-lg font-semibold text-white mb-2" i18n>Mais um Projeto</h3>
       <p class="text-slate-400 text-sm" i18n>
-        Energy bill processing solution using Amazon Textract and Gaussian curve algorithms for data
-        adjustment.
+        Descrição breve do projeto. Inclua informações sobre o cliente, desafios e soluções
+        criativas.
       </p>
     </article>
-    <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
-    >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para financeiro/analytics -->
-        <ng-icon name="bootstrapGraphUpArrow" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>FIDC Credit Engine</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        High-performance backend for credit rights validation and bank integration using .NET Core
-        and AWS.
-      </p>
-    </article>
+
+    <!--
+      💡  Para adicionar mais projetos, copie um bloco <article>
+      e cole aqui. Depois edite o ícone, título e descrição.
+    -->
   </div>
 </section>

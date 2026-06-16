@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --configuration=pt",
+    "start:pt": "ng serve --configuration=pt",
+    "start:en": "ng serve --configuration=en --port 4201",
+    "start:es": "ng serve --configuration=es --port 4202",
     "build": "ng build && npm run build:copy-root",
     "build:copy-root": "cp -r dist/whoami/browser/en/* dist/whoami/browser/",
     "watch": "ng build --watch --configuration development",

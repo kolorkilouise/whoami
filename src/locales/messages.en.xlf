@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="pt" datatype="plaintext" original="ng2.template">
+  <file source-language="pt" datatype="plaintext" original="ng2.template" target-language="en">
     <body>
       <trans-unit id="5991901548910595687" datatype="html">
         <source>Educação e Certificações</source>
+        <target>Education &amp; Certifications</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="8312812136686859908" datatype="html">
         <source>Nome do Curso</source>
+        <target>Course Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">14,15</context>
@@ -18,6 +20,7 @@
       </trans-unit>
       <trans-unit id="7490315160183622747" datatype="html">
         <source>Nome da Instituição</source>
+        <target>Institution Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">16,17</context>
@@ -25,6 +28,7 @@
       </trans-unit>
       <trans-unit id="3927099588546271712" datatype="html">
         <source>Certificações e Conquistas</source>
+        <target>Certifications &amp; Achievements</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">25,26</context>
@@ -32,6 +36,7 @@
       </trans-unit>
       <trans-unit id="2669872738199763927" datatype="html">
         <source> Sua Certificação 1 </source>
+        <target> Your Certification 1 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">32,33</context>
@@ -39,6 +44,7 @@
       </trans-unit>
       <trans-unit id="194836649949817148" datatype="html">
         <source> Sua Certificação 2 </source>
+        <target> Your Certification 2 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">38,39</context>
@@ -46,6 +52,7 @@
       </trans-unit>
       <trans-unit id="845096920634038612" datatype="html">
         <source> Sua Certificação 3 </source>
+        <target> Your Certification 3 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
           <context context-type="linenumber">44,45</context>
@@ -53,6 +60,7 @@
       </trans-unit>
       <trans-unit id="6623313007247315208" datatype="html">
         <source>Experiência</source>
+        <target>Experience</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -60,6 +68,7 @@
       </trans-unit>
       <trans-unit id="2878382663413518189" datatype="html">
         <source>Seu Cargo</source>
+        <target>Your Role</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">20,21</context>
@@ -71,6 +80,7 @@
       </trans-unit>
       <trans-unit id="6619177692545024731" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Sua realização 1<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — descreva brevemente o que você fez. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Your achievement 1<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — briefly describe what you did. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">29,31</context>
@@ -78,6 +88,7 @@
       </trans-unit>
       <trans-unit id="4272553845563173078" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Sua realização 2<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — destaque resultados e ferramentas utilizadas. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Your achievement 2<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — highlight results and tools used. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">33,35</context>
@@ -85,6 +96,7 @@
       </trans-unit>
       <trans-unit id="8696040220403292538" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Sua realização 3<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — mencione tecnologias relevantes. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Your achievement 3<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — mention relevant technologies. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">37,39</context>
@@ -92,6 +104,7 @@
       </trans-unit>
       <trans-unit id="6074781350600467479" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Realização principal<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — descreva o impacto do seu trabalho. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Main achievement<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — describe the impact of your work. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">65,67</context>
@@ -99,6 +112,7 @@
       </trans-unit>
       <trans-unit id="4728768462356819803" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Outra realização<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — ferramentas, metodologias, resultados. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Another achievement<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> — tools, methodologies, results. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">69,71</context>
@@ -106,6 +120,7 @@
       </trans-unit>
       <trans-unit id="3314124061823236458" datatype="html">
         <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> Louise Rodrigues Foltran Kolorki. All rights reserved.</source>
+        <target>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> Louise Rodrigues Foltran Kolorki. All rights reserved.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/footer/footer.component.html</context>
           <context context-type="linenumber">2,4</context>
@@ -113,6 +128,7 @@
       </trans-unit>
       <trans-unit id="7312779405300458541" datatype="html">
         <source>Designer</source>
+        <target>Designer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/header/header.component.html</context>
           <context context-type="linenumber">20,22</context>
@@ -120,6 +136,7 @@
       </trans-unit>
       <trans-unit id="2105829870823186346" datatype="html">
         <source>Ponta Grossa - PR</source>
+        <target>Ponta Grossa - PR</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/header/header.component.html</context>
           <context context-type="linenumber">27,28</context>
@@ -127,6 +144,7 @@
       </trans-unit>
       <trans-unit id="1666220626053137994" datatype="html">
         <source> Choose Language </source>
+        <target> Choose Language </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/header/language-selector/language-selector.component.html</context>
           <context context-type="linenumber">33,34</context>
@@ -134,6 +152,7 @@
       </trans-unit>
       <trans-unit id="238121171281373733" datatype="html">
         <source>Projetos em Destaque</source>
+        <target>Featured Projects</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -141,6 +160,7 @@
       </trans-unit>
       <trans-unit id="6566574339077754583" datatype="html">
         <source>Nome do Projeto</source>
+        <target>Project Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">20,21</context>
@@ -148,6 +168,7 @@
       </trans-unit>
       <trans-unit id="7553071097235855768" datatype="html">
         <source> Descrição breve do projeto. Fale sobre o objetivo, ferramentas utilizadas e resultados. </source>
+        <target> Brief project description. Talk about the goal, tools used, and results. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">23,24</context>
@@ -155,6 +176,7 @@
       </trans-unit>
       <trans-unit id="6324054334885116313" datatype="html">
         <source>Outro Projeto</source>
+        <target>Another Project</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">36,37</context>
@@ -162,6 +184,7 @@
       </trans-unit>
       <trans-unit id="5409749595510582238" datatype="html">
         <source> Descrição breve do projeto. Destaque o impacto visual, as técnicas usadas e o resultado final. </source>
+        <target> Brief project description. Highlight the visual impact, techniques used, and final result. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">38,39</context>
@@ -169,6 +192,7 @@
       </trans-unit>
       <trans-unit id="2576703877290554517" datatype="html">
         <source>Mais um Projeto</source>
+        <target>One More Project</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">52,53</context>
@@ -176,6 +200,7 @@
       </trans-unit>
       <trans-unit id="7725922201913731600" datatype="html">
         <source> Descrição breve do projeto. Inclua informações sobre o cliente, desafios e soluções criativas. </source>
+        <target> Brief project description. Include information about the client, challenges, and creative solutions. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">54,55</context>
@@ -183,6 +208,7 @@
       </trans-unit>
       <trans-unit id="5373999042051591619" datatype="html">
         <source>Habilidades</source>
+        <target>Skills</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -190,6 +216,7 @@
       </trans-unit>
       <trans-unit id="9191230847992667686" datatype="html">
         <source>Design Gráfico</source>
+        <target>Graphic Design</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
           <context context-type="linenumber">13,14</context>
@@ -197,6 +224,7 @@
       </trans-unit>
       <trans-unit id="4535993446582154196" datatype="html">
         <source>UI/UX Design</source>
+        <target>UI/UX Design</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
           <context context-type="linenumber">43,44</context>
@@ -204,6 +232,7 @@
       </trans-unit>
       <trans-unit id="4332144821581428075" datatype="html">
         <source>Branding &amp; Identidade</source>
+        <target>Branding &amp; Identity</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
           <context context-type="linenumber">73,74</context>
@@ -211,6 +240,7 @@
       </trans-unit>
       <trans-unit id="9156801687593542193" datatype="html">
         <source>Outras Habilidades</source>
+        <target>Other Skills</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
           <context context-type="linenumber">103,104</context>
@@ -218,6 +248,7 @@
       </trans-unit>
       <trans-unit id="4461555567724559992" datatype="html">
         <source>Resumo Profissional</source>
+        <target>Professional Summary</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/summary/summary.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -225,6 +256,7 @@
       </trans-unit>
       <trans-unit id="6331330498420982561" datatype="html">
         <source> Profissional de <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-indigo-400&quot;&gt;"/>Design<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> com experiência em <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>criação de identidade visual, UI/UX e branding<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Apaixonada por transformar ideias em soluções visuais criativas e funcionais. Atualmente em busca de novos desafios na área de <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>design digital<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <target> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-indigo-400&quot;&gt;"/>Design<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> professional with experience in <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>visual identity, UI/UX, and branding<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Passionate about turning ideas into creative and functional visual solutions. Currently seeking new challenges in <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>digital design<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/summary/summary.component.html</context>
           <context context-type="linenumber">9,15</context>
