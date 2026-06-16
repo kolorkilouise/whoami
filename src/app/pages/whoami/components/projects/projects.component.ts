@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import {
-  bootstrapCloudCheck,
-  bootstrapCpu,
-  bootstrapEmojiSmile,
+  bootstrapBrush,
+  bootstrapCamera,
   bootstrapFileEarmarkText,
   bootstrapGraphUpArrow,
+  bootstrapImages,
   bootstrapLightningCharge,
-  bootstrapShieldLock,
+  bootstrapPalette2,
 } from '@ng-icons/bootstrap-icons';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 
@@ -18,10 +18,10 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
   viewProviders: [
     provideIcons({
       bootstrapLightningCharge,
-      bootstrapEmojiSmile,
-      bootstrapCpu,
-      bootstrapCloudCheck,
-      bootstrapShieldLock,
+      bootstrapImages,
+      bootstrapBrush,
+      bootstrapPalette2,
+      bootstrapCamera,
       bootstrapFileEarmarkText,
       bootstrapGraphUpArrow,
     }),

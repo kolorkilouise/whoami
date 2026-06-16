@@ -93,9 +93,9 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en",
+        "sourceLocale": "pt",
         "locales": {
-          "pt": "src/locales/messages.pt.xlf",
+          "en": "src/locales/messages.en.xlf",
           "es": "src/locales/messages.es.xlf"
         }
       }
